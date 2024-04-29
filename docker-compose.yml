@@ -1,4 +1,4 @@
-# version: '3.8'  # `version`フィールドを `3.8` に更新
+version: '3.8'
 
 services:
   web:
@@ -14,8 +14,6 @@ services:
     stdin_open: true
     depends_on:
       - db
-    links:
-      - db
 
   db:
     image: postgres
@@ -27,3 +25,4 @@ services:
 
 volumes:
   db-data:
+
