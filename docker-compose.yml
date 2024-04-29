@@ -1,4 +1,4 @@
-version: '3.8'  # `version`フィールドを `3.8` に更新
+# version: '3.8'  # `version`フィールドを `3.8` に更新
 
 services:
   web:
