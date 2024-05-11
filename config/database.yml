@@ -19,6 +19,7 @@ default: &default
   encoding: unicode
   host: db
   user: postgres
+  # docker-compose.ymlのデフォルトでは無しだから描かなくていい
   port: 5432
   password: password  # DATABASE_PASSWORD から POSTGRES_PASSWORD に修正
   # For details on connection pooling, see Rails configuration guide
